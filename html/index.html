@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title></title>
@@ -5,14 +6,23 @@
       <link href='../styles/style.css' rel='stylesheet'>
   </head>
   <body>
-    <div class="todo_list_container">
-      <div class="todo_list_body">
-        <input type="text" class="add-item-input-field">
-        <button class="add_item_button">Add Item</button>
-        <button class="clear_list_button">Clear List</button>
+    <div class="toDoListContainer">
+      <div class="toDoListBody">
+        <h6 class="listHeader">To Do List</h6>
+        <button class="addItemButton">Add Item</button>
+        <input type="text" class="addItemInputField" required>
+        <button class="clearListButton">Clear List</button>
         <div class="listItemContainer">
-            <ul class="ul_for_list_gen">
-              <li class="listItem">PLACE HOLDER</li>
+          <span class="listTitles">TODO</span>
+          <hr class="hrLine">
+            <ul class="ulForListGen">
+              <div class="examplesContainer">
+                <li class="listItem exampleMark">Pick up Dog Food.<button class="removeBtnExample " disabled>DELETE</button><input type="checkbox" name="markComplete" class="checkBox" value="unchecked" disabled></li>
+                <li class="listItem exampleMark">Buy Shampoo &amp; Conditioner.<button class="removeBtnExample" disabled>DELETE</button><input type="checkbox" name="markComplete" class="checkBox" value="unchecked" disabled></li>
+                <li class="listItem exampleMark">Make example items for TODO List.<button class="removeBtnExample" disabled>DELETE</button><input type="checkbox" name="markComplete" class="checkBox" value="unchecked" disabled></li>
+                <li class="listItem exampleMark">Buy Eggs.<button class="removeBtnExample" disabled>DELETE</button><input type="checkbox" name="markComplete" class="checkBox" value="unchecked" disabled></li>
+                <li class="listItem exampleMark">Make appointment with Doctor for next week!<button class="removeBtnExample" disabled>DELETE</button><input type="checkbox" name="markComplete" class="checkBox" value="checked" disabled></li>
+              </div>
             </ul>
         </div>
       </div>
