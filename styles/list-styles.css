@@ -1,12 +1,3 @@
-/*  ISSUES
-
-1. removeItemButton text is not centered on Chrome 
-2. <hr> lines do not work properly in Edge
-3. removeItemButton text is broken in Edge
-code is a mess.
-
-*/
-
 
 /* TAG STYLES */
 
@@ -25,7 +16,7 @@ ul {
 }
 
 /* CREATED LIST ELEMENT STYLES */
-/* width */
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -37,24 +28,19 @@ ul {
 }
 
 .listItemContainer {
-  margin: 20px 10px 30px;
-  
-  overflow-y: scroll;
-  
-/*  width: 95%;*/
+  margin: 30px 10px 12px;
+  padding-bottom: 25px;
+  overflow-y: auto;
   min-height: 80px;
   max-height: 600px;
-  
-  border: solid rgb(211,211,211, .7) 1px;
-  
-/*   background-color: darkgrey; */
-  
+  background-color: #e6f2ff;
+  border: solid rgb(26, 140, 255, .8) 2px;
+  border-radius: 10px;
 }
 
 .listItem {
   position: relative;
   margin: 20px 0px 0px 70px;
-  
   max-width: 250px;
   word-wrap: break-word;
   text-align: left;
@@ -72,11 +58,9 @@ ul {
 
 .removeItemButton  {
   float: right;
-  
   position: absolute;
   right: -108px;
   top: -3px;
-  
   text-align: center;
   margin: 0px 0px 0px 0px;
   width: auto;
@@ -87,11 +71,9 @@ ul {
 
 .removeBtnExample  {
   float: right;
-  
   position: absolute;
   right: -108px;
   top: -3px;
-  
   text-align: center;
   margin: 0px 0px 0px 0px;
   width: auto;
@@ -102,26 +84,20 @@ ul {
 
 .checkBox {
   float: left;
-  
   position: absolute;
   left: 0px;
   top: 1px;
-  
   margin-left: -80px;
-  
   background-color: tomato;
   border: grey solid 2px;
 }
 
 .checkBoxExample {
   float: left;
-  
   position: absolute;
   left: 0px;
   top: 1px;
-  
   margin-left: -80px;
-  
   border: grey solid 2px;
 }
 
@@ -133,7 +109,6 @@ ul {
 .listHeader {
   text-align: center;
   background-color: #eeeeee;
-  
   border-radius: 10px 10px 0px 0px;
   margin-top: 0px;
   padding-top: 5px;
@@ -143,7 +118,6 @@ ul {
 .toDoListContainer {
   display: flex; 
   justify-content: center;
-
   width: 530px;
   margin-top: 70px;
   margin-left: auto;
@@ -152,54 +126,54 @@ ul {
 
 .toDoListBody {
   position: relative;
-  
   border-radius: 10px;
-  background-color: #fafafa;
-  
+  background-color: #99ccff;
   min-height: 266px;
   min-width: 530px;
 }
 
 .addItemButton {
   display: block;
-  
-  background-color: rgba(33,150,243, 0.8);
-  border: none;
+  background-color: rgba(33,150,243, 1);
+  border: solid white 1px;
   color: white;
   margin: 25px auto 0px auto;
   width: 139px;
   height: 55px;
 }
 
+.addItemButton:hover {
+  display: block;
+  background-color: rgba(33,150,243, 0.6);
+}
+
 .addItemInputField {
   display: block;
-  
   border: grey solid 1px;
   width: 139px;
-/*   color: white; */
   margin: 10px auto 0px auto;
 }
 
 .clearListButton {
   position: absolute;
-  top: 30px;
-  right: 30px;
-  
-  background-color: rgba(244,67,54, 0.8);
-  border: none;
+  top: 35px;
+  right: 10px;
+  background-color: rgba(244,67,54, 0.6);
+  border: solid 1px lightgrey;
   color: white;
-  /* padding: 55px 55px; */
+  width: 89px;
+  height: 35px;
+}
+
+.clearListButton:hover {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  background-color: rgba(244,67,54, .9);
+  border: solid 1px white;
+  color: white;
   width: 89px;
   height: 35px;
 }
 
 /* /CLASS STYLES */
-
-
-
-
-
-
-
-
-
