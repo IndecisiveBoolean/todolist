@@ -1,6 +1,5 @@
-# todolist
-#### Being rebuilt in VUE [here](https://github.com/IndecisiveBoolean/ToDo-rebuild).
+# Being rebuilt in VUE [here](https://github.com/IndecisiveBoolean/ToDo-rebuild).
 
-Simple ToDo list. 
+## Simple ToDo list. 
 
-You can see it in action [here](https://codepen.io/IndecisiveBoolean/full/GdpBgz/)!
+See it [here](https://codepen.io/IndecisiveBoolean/full/GdpBgz/)!
