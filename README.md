@@ -1,5 +1,5 @@
-# Being rebuilt in VUE [here](https://github.com/IndecisiveBoolean/ToDo-rebuild).
+# To Do
 
-## Simple ToDo list. 
+My original [To Do](https://codepen.io/IndecisiveBoolean/full/GdpBgz/) project I built to practice DOM manipulation.
 
-See it [here](https://codepen.io/IndecisiveBoolean/full/GdpBgz/)!
+#### Being rebuilt in VUE [here](https://github.com/IndecisiveBoolean/ToDo-rebuild)!
